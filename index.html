@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Social Share Preview</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://goo.su/nWhU3">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&amp;display=swap"
+          rel="stylesheet">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+
+<body>
+<section class="social-share-preview">
+
+    <div class="container">
+
+        <div class="title-spg">
+            <i class="ph-share-network"></i>
+            <h1 class="title">Check your social media share previews.</h1>
+            <h3>
+                Make sure your website is ready to be shared on social media to optimize your conversion on
+                Facebook,
+                Twitter, LinkedIn & Slack
+            </h3>
+        </div>
+
+        <div class="form-container">
+            <form>
+                <input  type="url" name="url" required="required" placeholder="Enter a url"/>
+                <button type="submit" class="button" onclick="socialPreviewGenerator.getSocialData()">
+                    <span class="button__text">Run</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="content">
+
+            <div class="preview-container">
+
+                <span class="init-message">Submit a URL to see preview information</span>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="assets/script/script.js"></script>
+</section>
+</body>
+
+</html>
